@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+* {
+    
+    color: white;
+    font-family: 'Comic Neue', cursive;
+}
+body {
+    background-image: url(imagenes/landscape.jpg);
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(250, 101, 101);
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+h1 {
+    margin-top: 2%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15%;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 1%;
+    font-size: 25px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 1%;
+    font-size: 25px;
+}

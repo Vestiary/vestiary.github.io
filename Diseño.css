@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+.cabecera {
+    padding: 20px;
+    font: bold 14px 'Comic Neue', cursive;
+}
+
+.cabecera h1 {
+    text-align: left;
+}
+body {
+    background-image: url(imagenes/topless.jpg);
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(250, 101, 101);
+    text-align: center;
+}
+
+h1 {
+    
+    font-size: 25px;
+}
+
+h2 {
+
+    font-size: 20px;
+}
+
+p {
+
+    font-size: 15px;
+}
+
+
+.barraArriba {
+    box-shadow: 5px 5px 10px rgb(255, 80, 80);
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(253, 71, 71);
+
+}
+
+.barraAbajo {
+    box-shadow: 5px 5px 10px rgb(255, 80, 80);
+    clear: both;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(253, 71, 71);
+}
+
+.menu {
+    box-shadow: 5px 5px 10px rgb(255, 80, 80);
+    background: rgb(255, 80, 80);
+    text-align: left;
+
+}
+
+.menu li {
+    text-align: left;
+    display: inline-block;
+    margin: 5px 10px;
+    list-style: none;
+    font: bold 14px verdana;
+}
+
+.sect {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sect article {
+    background: rgb(255, 80, 80);
+    box-shadow: 5px 5px 10px rgb(255, 80, 80);
+    text-align: left;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: auto;
+}
+
+.sect article h1 {
+    
+    margin-left: 1%;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.sect article h2 {
+    
+    margin-left: 1%;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.sect article time {
+    
+    color: rgb(204, 204, 204);
+    font-family: 'Comic Neue', cursive;
+    font-style: italic;
+    margin-left: 1%;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.sect article p {
+    
+    margin-left: 1%;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.sect article img {
+    
+    margin-left: 1%;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.sect article footer {
+    text-align: right;
+    margin-left: 1%;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.sect article address {
+    margin-left: 1%;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.lado {
+    float: right;
+    width: 25%;
+    margin-left: auto;
+    margin-right: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.lado p {
+    
+    box-shadow: 5px 5px 10px rgb(255, 80, 80);
+    background: rgb(255, 80, 80);
+    margin-top: auto;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
